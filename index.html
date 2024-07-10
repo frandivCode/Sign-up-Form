@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>AprendeOnline</title>
+</head>
+
+<body>
+    <main class="containerPrincipal color-change-2x">
+        <div class="hero-content">
+            <h1>Somos AprendeOnline.</h1>
+            <p>Transformá tu <span>futuro</span> con nosotros, tu portal para el conocimiento sin <span>límites</span> con un solo click.</p>
+            <img src="./img/img-educativa.svg" class="imgEducativa">
+            <img src="./img/click.png" class="clickMe">
+        </div>
+
+        <div class="containerForm">
+            <h2>Registrate <span>Ya!</span></h2>
+            <form>
+                <div class="input-container">
+                    <label for="tu_nombre">Nombre</label>
+                    <input type="text" placeholder="Ingresa tu nombre" name="tu_nombre">
+                </div>
+
+                <div class="input-container">
+                    <label for="tu_email">Email*</label>
+                    <input type="email" placeholder="ejemplo@gmail.com" name="tu_email" required>
+                </div>
+
+                <div class="input-container">
+                    <label for="tu_contraseña">Contraseña*</label>
+                    <input type="password" placeholder="Ingresa una contraseña" name="tu_contraseña" required>
+                </div>
+
+                <div class="input-container">
+                    <label for="tu_apellido">Apellido</label>
+                    <input type="text" placeholder="Ingresa tu apellido" name="tu_apellido">
+                </div>
+
+                <div class="input-container">
+                    <label for="tu_numero">Teléfono</label>
+                    <input type="phone" placeholder="Ingresa tu número" name="tu_numero" required>
+                </div>
+
+                <div class="input-container">
+                    <label for="confirm_contraseña">Confirmar contraseña</label>
+                    <input type="password" name="confirm_contraseña" required>
+                </div>
+            </form>
+            <div class="orderForm">
+                <button type="submit" class="animate__pulse">Crear cuenta</button>
+                <span>Ya tienes una cuenta? <a href="#">Inicia sesión.</a></span>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Inspirado en <a href="https://www.theodinproject.com">OdinProject</a></p>
+    </footer>
+</body>
+
+</html>
